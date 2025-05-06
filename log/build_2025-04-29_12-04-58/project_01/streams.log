@@ -1,0 +1,45 @@
+[7.479s] Invoking command in '/home/tarikul69/ros2_project/src/project_01': PYTHONPATH=/home/tarikul69/ros2_project/src/project_01/build/project_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_01 build --build-base /home/tarikul69/ros2_project/src/project_01/build/project_01/build install --record /home/tarikul69/ros2_project/src/project_01/build/project_01/install.log --single-version-externally-managed install_data
+[9.637s] running egg_info
+[9.652s] creating build/project_01/project_01.egg-info
+[9.653s] writing build/project_01/project_01.egg-info/PKG-INFO
+[9.654s] writing dependency_links to build/project_01/project_01.egg-info/dependency_links.txt
+[9.661s] writing entry points to build/project_01/project_01.egg-info/entry_points.txt
+[9.703s] writing requirements to build/project_01/project_01.egg-info/requires.txt
+[9.704s] writing top-level names to build/project_01/project_01.egg-info/top_level.txt
+[9.714s] writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+[9.721s] reading manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+[9.723s] writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+[9.729s] running build
+[9.729s] running build_py
+[9.729s] creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build
+[9.729s] creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib
+[9.729s] creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01
+[9.729s] copying project_01/__init__.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01
+[9.737s] copying project_01/draw_circle.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01
+[9.740s] copying project_01/controller_node.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01
+[9.755s] copying project_01/object_detection.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01
+[9.755s] running install
+[9.755s] running install_lib
+[9.761s] creating /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01
+[9.761s] copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/__init__.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01
+[9.761s] copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/draw_circle.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01
+[9.761s] copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/controller_node.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01
+[9.761s] copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/object_detection.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01
+[9.761s] byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/__init__.py to __init__.cpython-310.pyc
+[9.761s] byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/draw_circle.py to draw_circle.cpython-310.pyc
+[9.761s] byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/controller_node.py to controller_node.cpython-310.pyc
+[9.763s] byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/object_detection.py to object_detection.cpython-310.pyc
+[9.767s] running install_data
+[9.771s] creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index
+[9.773s] creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index
+[9.774s] creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index/packages
+[9.774s] copying resource/project_01 -> /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index/packages
+[9.774s] copying package.xml -> /home/tarikul69/ros2_project/src/project_01/install/project_01/share/project_01
+[9.774s] running install_egg_info
+[9.779s] Copying build/project_01/project_01.egg-info to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info
+[9.817s] running install_scripts
+[9.927s] Installing controller_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[9.934s] Installing draw_circle script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[9.940s] Installing my_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[9.942s] writing list of installed files to '/home/tarikul69/ros2_project/src/project_01/build/project_01/install.log'
+[10.319s] Invoked command in '/home/tarikul69/ros2_project/src/project_01' returned '0': PYTHONPATH=/home/tarikul69/ros2_project/src/project_01/build/project_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_01 build --build-base /home/tarikul69/ros2_project/src/project_01/build/project_01/build install --record /home/tarikul69/ros2_project/src/project_01/build/project_01/install.log --single-version-externally-managed install_data

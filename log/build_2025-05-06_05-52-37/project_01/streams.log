@@ -1,0 +1,23 @@
+[2.410s] Invoking command in '/home/tarikul69/ros2_project/src/project_01': PYTHONPATH=/home/tarikul69/ros2_project/src/project_01/build/project_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_01 build --build-base /home/tarikul69/ros2_project/src/project_01/build/project_01/build install --record /home/tarikul69/ros2_project/src/project_01/build/project_01/install.log --single-version-externally-managed install_data
+[3.081s] running egg_info
+[3.090s] writing build/project_01/project_01.egg-info/PKG-INFO
+[3.117s] writing dependency_links to build/project_01/project_01.egg-info/dependency_links.txt
+[3.127s] writing entry points to build/project_01/project_01.egg-info/entry_points.txt
+[3.127s] writing requirements to build/project_01/project_01.egg-info/requires.txt
+[3.128s] writing top-level names to build/project_01/project_01.egg-info/top_level.txt
+[3.133s] reading manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+[3.148s] writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+[3.149s] running build
+[3.150s] running build_py
+[3.151s] running install
+[3.170s] running install_lib
+[3.219s] running install_data
+[3.222s] running install_egg_info
+[3.224s] removing '/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info' (and everything under it)
+[3.234s] Copying build/project_01/project_01.egg-info to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info
+[3.236s] running install_scripts
+[3.291s] Installing controller_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[3.306s] Installing draw_circle script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[3.310s] Installing my_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+[3.311s] writing list of installed files to '/home/tarikul69/ros2_project/src/project_01/build/project_01/install.log'
+[3.378s] Invoked command in '/home/tarikul69/ros2_project/src/project_01' returned '0': PYTHONPATH=/home/tarikul69/ros2_project/src/project_01/build/project_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_01 build --build-base /home/tarikul69/ros2_project/src/project_01/build/project_01/build install --record /home/tarikul69/ros2_project/src/project_01/build/project_01/install.log --single-version-externally-managed install_data

@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_node = project_01.object_detection:main",
-            "draw_circle = project_01.draw_circle:main"
+            "object_detection = project_01.object_detection:main",
+            "draw_circle = project_01.draw_circle:main",
+            "controller_node = project_01.controller_node:main",
         ],
     },
 )

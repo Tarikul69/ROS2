@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.031562] (project_01) JobQueued: {'identifier': 'project_01', 'dependencies': OrderedDict()}
+[0.031851] (project_01) JobStarted: {'identifier': 'project_01'}
+[0.101655] (-) TimerEvent: {}
+[0.304404] (-) TimerEvent: {}
+[0.425665] (-) TimerEvent: {}
+[0.539299] (-) TimerEvent: {}
+[0.660737] (-) TimerEvent: {}
+[0.802955] (-) TimerEvent: {}
+[0.903825] (-) TimerEvent: {}
+[1.009766] (-) TimerEvent: {}
+[1.111341] (-) TimerEvent: {}
+[1.212486] (-) TimerEvent: {}
+[1.315364] (-) TimerEvent: {}
+[1.417732] (-) TimerEvent: {}
+[1.518495] (-) TimerEvent: {}
+[1.619478] (-) TimerEvent: {}
+[1.720796] (-) TimerEvent: {}
+[1.822416] (-) TimerEvent: {}
+[1.924636] (-) TimerEvent: {}
+[2.033905] (-) TimerEvent: {}
+[2.135508] (-) TimerEvent: {}
+[2.236474] (-) TimerEvent: {}
+[2.338790] (-) TimerEvent: {}
+[2.439543] (-) TimerEvent: {}
+[2.547672] (-) TimerEvent: {}
+[2.651469] (-) TimerEvent: {}
+[2.752977] (-) TimerEvent: {}
+[2.864252] (-) TimerEvent: {}
+[2.965440] (-) TimerEvent: {}
+[3.069591] (-) TimerEvent: {}
+[3.171397] (-) TimerEvent: {}
+[3.279195] (-) TimerEvent: {}
+[3.386735] (-) TimerEvent: {}
+[3.488584] (-) TimerEvent: {}
+[3.601623] (-) TimerEvent: {}
+[3.707617] (-) TimerEvent: {}
+[3.820930] (-) TimerEvent: {}
+[3.923501] (-) TimerEvent: {}
+[4.024319] (-) TimerEvent: {}
+[4.137680] (-) TimerEvent: {}
+[4.247836] (-) TimerEvent: {}
+[4.378694] (-) TimerEvent: {}
+[4.482751] (-) TimerEvent: {}
+[4.584281] (-) TimerEvent: {}
+[4.686284] (-) TimerEvent: {}
+[4.787580] (-) TimerEvent: {}
+[4.888233] (-) TimerEvent: {}
+[4.988904] (-) TimerEvent: {}
+[5.090435] (-) TimerEvent: {}
+[5.203425] (-) TimerEvent: {}
+[5.307503] (-) TimerEvent: {}
+[5.409533] (-) TimerEvent: {}
+[5.510641] (-) TimerEvent: {}
+[5.612633] (-) TimerEvent: {}
+[5.715424] (-) TimerEvent: {}
+[5.818464] (-) TimerEvent: {}
+[5.919503] (-) TimerEvent: {}
+[6.026597] (-) TimerEvent: {}
+[6.139631] (-) TimerEvent: {}
+[6.247879] (-) TimerEvent: {}
+[6.351567] (-) TimerEvent: {}
+[6.453003] (-) TimerEvent: {}
+[6.555959] (-) TimerEvent: {}
+[6.662732] (-) TimerEvent: {}
+[6.764387] (-) TimerEvent: {}
+[6.865119] (-) TimerEvent: {}
+[6.967578] (-) TimerEvent: {}
+[7.078535] (-) TimerEvent: {}
+[7.180087] (-) TimerEvent: {}
+[7.303851] (-) TimerEvent: {}
+[7.409073] (project_01) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/project_01', 'build', '--build-base', '/home/tarikul69/ros2_project/src/project_01/build/project_01/build', 'install', '--record', '/home/tarikul69/ros2_project/src/project_01/build/project_01/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tarikul69/ros2_project/src/project_01', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tarikul69', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tarikul69', 'OLDPWD': '/home/tarikul69/ros2_project/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1484', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tarikul69/ros2_project/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tarikul69', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tarikul69', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tarikul69/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tarikul69:@/tmp/.ICE-unix/1446,unix/tarikul69:/tmp/.ICE-unix/1446', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bce8f26_4446_41d3_b76e_274cb7da30ef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y73W52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tarikul69/ros2_project/install/project_01:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tarikul69/ros2_project/src/project_01/build/project_01', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tarikul69/ros2_project/src/project_01/build/project_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages:/home/tarikul69/ros2_project/build/project_01:/home/tarikul69/ros2_project/install/project_01/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.510895] (-) TimerEvent: {}
+[7.657803] (-) TimerEvent: {}
+[7.769761] (-) TimerEvent: {}
+[7.878670] (-) TimerEvent: {}
+[7.983284] (-) TimerEvent: {}
+[8.085669] (-) TimerEvent: {}
+[8.190674] (-) TimerEvent: {}
+[8.294678] (-) TimerEvent: {}
+[8.402693] (-) TimerEvent: {}
+[8.505687] (-) TimerEvent: {}
+[8.606691] (-) TimerEvent: {}
+[8.713227] (-) TimerEvent: {}
+[8.814700] (-) TimerEvent: {}
+[8.925126] (-) TimerEvent: {}
+[9.030847] (-) TimerEvent: {}
+[9.148758] (-) TimerEvent: {}
+[9.256507] (-) TimerEvent: {}
+[9.358290] (-) TimerEvent: {}
+[9.460918] (-) TimerEvent: {}
+[9.561684] (-) TimerEvent: {}
+[9.662898] (-) TimerEvent: {}
+[9.668533] (project_01) StdoutLine: {'line': b'running egg_info\n'}
+[9.682714] (project_01) StdoutLine: {'line': b'creating build/project_01/project_01.egg-info\n'}
+[9.683508] (project_01) StdoutLine: {'line': b'writing build/project_01/project_01.egg-info/PKG-INFO\n'}
+[9.685479] (project_01) StdoutLine: {'line': b'writing dependency_links to build/project_01/project_01.egg-info/dependency_links.txt\n'}
+[9.692511] (project_01) StdoutLine: {'line': b'writing entry points to build/project_01/project_01.egg-info/entry_points.txt\n'}
+[9.734352] (project_01) StdoutLine: {'line': b'writing requirements to build/project_01/project_01.egg-info/requires.txt\n'}
+[9.735418] (project_01) StdoutLine: {'line': b'writing top-level names to build/project_01/project_01.egg-info/top_level.txt\n'}
+[9.745295] (project_01) StdoutLine: {'line': b"writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'\n"}
+[9.752854] (project_01) StdoutLine: {'line': b"reading manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'\n"}
+[9.754269] (project_01) StdoutLine: {'line': b"writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'\n"}
+[9.760465] (project_01) StdoutLine: {'line': b'running build\n'}
+[9.760723] (project_01) StdoutLine: {'line': b'running build_py\n'}
+[9.760818] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build\n'}
+[9.760899] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib\n'}
+[9.760979] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01\n'}
+[9.761049] (project_01) StdoutLine: {'line': b'copying project_01/__init__.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01\n'}
+[9.768182] (project_01) StdoutLine: {'line': b'copying project_01/draw_circle.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01\n'}
+[9.768581] (-) TimerEvent: {}
+[9.770855] (project_01) StdoutLine: {'line': b'copying project_01/controller_node.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01\n'}
+[9.786284] (project_01) StdoutLine: {'line': b'copying project_01/object_detection.py -> /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01\n'}
+[9.786523] (project_01) StdoutLine: {'line': b'running install\n'}
+[9.786608] (project_01) StdoutLine: {'line': b'running install_lib\n'}
+[9.791602] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01\n'}
+[9.792458] (project_01) StdoutLine: {'line': b'copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/__init__.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01\n'}
+[9.792583] (project_01) StdoutLine: {'line': b'copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/draw_circle.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01\n'}
+[9.792659] (project_01) StdoutLine: {'line': b'copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/controller_node.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01\n'}
+[9.792945] (project_01) StdoutLine: {'line': b'copying /home/tarikul69/ros2_project/src/project_01/build/project_01/build/lib/project_01/object_detection.py -> /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01\n'}
+[9.793041] (project_01) StdoutLine: {'line': b'byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/__init__.py to __init__.cpython-310.pyc\n'}
+[9.793111] (project_01) StdoutLine: {'line': b'byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/draw_circle.py to draw_circle.cpython-310.pyc\n'}
+[9.793180] (project_01) StdoutLine: {'line': b'byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/controller_node.py to controller_node.cpython-310.pyc\n'}
+[9.795195] (project_01) StdoutLine: {'line': b'byte-compiling /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01/object_detection.py to object_detection.cpython-310.pyc\n'}
+[9.798819] (project_01) StdoutLine: {'line': b'running install_data\n'}
+[9.801750] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index\n'}
+[9.802898] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index\n'}
+[9.805641] (project_01) StdoutLine: {'line': b'creating /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index/packages\n'}
+[9.805904] (project_01) StdoutLine: {'line': b'copying resource/project_01 -> /home/tarikul69/ros2_project/src/project_01/install/project_01/share/ament_index/resource_index/packages\n'}
+[9.806084] (project_01) StdoutLine: {'line': b'copying package.xml -> /home/tarikul69/ros2_project/src/project_01/install/project_01/share/project_01\n'}
+[9.806235] (project_01) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.810456] (project_01) StdoutLine: {'line': b'Copying build/project_01/project_01.egg-info to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info\n'}
+[9.845712] (project_01) StdoutLine: {'line': b'running install_scripts\n'}
+[9.871924] (-) TimerEvent: {}
+[9.957831] (project_01) StdoutLine: {'line': b'Installing controller_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01\n'}
+[9.964719] (project_01) StdoutLine: {'line': b'Installing draw_circle script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01\n'}
+[9.971852] (project_01) StdoutLine: {'line': b'Installing my_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01\n'}
+[9.972201] (-) TimerEvent: {}
+[9.973666] (project_01) StdoutLine: {'line': b"writing list of installed files to '/home/tarikul69/ros2_project/src/project_01/build/project_01/install.log'\n"}
+[10.072559] (-) TimerEvent: {}
+[10.177757] (-) TimerEvent: {}
+[10.281762] (-) TimerEvent: {}
+[10.349765] (project_01) CommandEnded: {'returncode': 0}
+[10.385892] (-) TimerEvent: {}
+[10.499909] (-) TimerEvent: {}
+[10.614823] (project_01) JobEnded: {'identifier': 'project_01', 'rc': 0}
+[10.655348] (-) TimerEvent: {}
+[10.665691] (-) EventReactorShutdown: {}

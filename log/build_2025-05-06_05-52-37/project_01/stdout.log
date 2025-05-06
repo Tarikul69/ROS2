@@ -1,0 +1,21 @@
+running egg_info
+writing build/project_01/project_01.egg-info/PKG-INFO
+writing dependency_links to build/project_01/project_01.egg-info/dependency_links.txt
+writing entry points to build/project_01/project_01.egg-info/entry_points.txt
+writing requirements to build/project_01/project_01.egg-info/requires.txt
+writing top-level names to build/project_01/project_01.egg-info/top_level.txt
+reading manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+writing manifest file 'build/project_01/project_01.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/project_01/project_01.egg-info to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/python3.10/site-packages/project_01-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+Installing draw_circle script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+Installing my_node script to /home/tarikul69/ros2_project/src/project_01/install/project_01/lib/project_01
+writing list of installed files to '/home/tarikul69/ros2_project/src/project_01/build/project_01/install.log'

@@ -11,8 +11,8 @@ from ultralytics import YOLO  # YOLOv8 model
 
 class ObjectDetectionNode(Node):
     def __init__(self):
-        super().__init__('object_detection')
-        self.publisher_ = self.create_publisher(String, '/cmd_vel', 10)
+        super().__init__('object_detector')
+        self.publisher_ = self.create_publisher(String, 'detected_objects', 10)
         self.image_subscriber_ = self.create_subscription(Image, 'camera/image_raw', self.image_callback, 10)
         self.bridge = CvBridge()
         self.model = YOLO('yolov8n.pt')  # Load YOLO model

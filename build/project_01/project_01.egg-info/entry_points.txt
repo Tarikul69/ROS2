@@ -1,0 +1,5 @@
+[console_scripts]
+controller_node = project_01.controller_node:main
+draw_circle = project_01.draw_circle:main
+my_node = project_01.object_detection:main
+
